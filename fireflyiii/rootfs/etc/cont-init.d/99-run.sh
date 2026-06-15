@@ -8,7 +8,7 @@ set -e
 ########
 
 # APP_KEY
-APP_KEY="qaqkIt-qyxmi5-dybhen123456789101"
+APP_KEY="qaqkIt-qyxmi5-dybhen12345678910122"
 
 # If not base64
 if [[ ! "$APP_KEY" == *"base64"* ]]; then
