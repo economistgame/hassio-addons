@@ -22,6 +22,7 @@
   ],
   "name": "Firefly iii (Ingress)",
   "options": {
+    "APP_KEY": Change_32_Chats_EuC5dfn3LAPzep
     "CONFIG_LOCATION": "/config/addons_config/fireflyiii/config.yaml",
     "ssl": false,
     "certfile": "fullchain.pem",
