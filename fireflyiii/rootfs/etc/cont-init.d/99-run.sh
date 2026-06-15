@@ -13,7 +13,7 @@ APP_KEY="qaqkIt-qyxmi5-dybhen12345678910122"
 # If not base64
 if [[ ! "$APP_KEY" == *"base64"* ]]; then
     # Check APP_KEY format
-    if [ ! "${#APP_KEY}" = 32 ]; then bashio::exit.nok "Your APP_KEY has ${#APP_KEY} instead of 32 characters"; fi
+    if [ ! "${#APP_KEY}" = 32 ]; then bashio::exit.nok "Your ${APP_KEY} has ${#APP_KEY} instead of 32 characters"; fi
 fi
 
 # Backup APP_KEY file
