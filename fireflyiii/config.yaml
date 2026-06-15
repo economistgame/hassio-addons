@@ -35,7 +35,7 @@
     "8080/tcp": "Web interface (también accesible por Ingress/Nabu Casa)"
   },
   "schema": {
-    "APP_KEY: "str",
+    "APP_KEY": "str",
     "CONFIG_LOCATION": "str",
     "ssl": "bool",
     "certfile": "str",
