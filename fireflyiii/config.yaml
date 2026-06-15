@@ -37,14 +37,14 @@
   "schema": {
     "APP_KEY": "str",
     "CONFIG_LOCATION": "str",
-     DB_CONNECTION: list(sqlite_internal|mariadb_addon|mysql|pgsql)
-     DB_DATABASE: str?
-     DB_HOST: str?
-     DB_PASSWORD: str?
-     DB_PORT: str?
-     DB_USERNAME: str?
-     Updates: list(|hourly|daily|weekly)?
-     silent: bool?,
+     "DB_CONNECTION": list(sqlite_internal|mariadb_addon|mysql|pgsql),
+     "DB_DATABASE": "str?",
+     "DB_HOST": "str?",
+     "DB_PASSWORD": "str?",
+     "DB_PORT": str?,
+     "DB_USERNAME": str?,
+     "Updates": list(|hourly|daily|weekly)?,
+     "silent": bool?,
     "ssl": "bool",
     "certfile": "str",
     "keyfile": "str"
