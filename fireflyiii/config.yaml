@@ -51,7 +51,7 @@
   },
   "slug": "fireflyiii",
   "startup": "application",
-  "version": "6.1.23",
+  "version": "6.1.22",
   "homeassistant": "2023.1.0",
   "url": "https://www.firefly-iii.org/",
   "hassio_api": true,
