@@ -37,13 +37,21 @@
   "schema": {
     "APP_KEY": "str",
     "CONFIG_LOCATION": "str",
+     DB_CONNECTION: list(sqlite_internal|mariadb_addon|mysql|pgsql)
+     DB_DATABASE: str?
+     DB_HOST: str?
+     DB_PASSWORD: str?
+     DB_PORT: str?
+     DB_USERNAME: str?
+     Updates: list(|hourly|daily|weekly)?
+     silent: bool?,
     "ssl": "bool",
     "certfile": "str",
     "keyfile": "str"
   },
   "slug": "fireflyiii",
   "startup": "application",
-  "version": "6.1.22",
+  "version": "6.1.23",
   "homeassistant": "2023.1.0",
   "url": "https://www.firefly-iii.org/",
   "hassio_api": true,
